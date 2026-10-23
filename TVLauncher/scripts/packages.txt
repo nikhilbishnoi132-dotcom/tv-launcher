@@ -1,0 +1,5 @@
+# Add packages to remove, one per line. Get candidates with:
+#   adb shell pm list packages -s     (system apps)
+#   adb shell pm list packages -3     (user-installed apps)
+# Never add: com.android.*, com.google.android.gms, com.google.android.gsf,
+# or the stock launcher package (see README step 5).
